@@ -26,7 +26,7 @@ export default function Home() {
   const validHeight = height !== undefined && height !== null && height > 0;
   const validSpeed = speed !== undefined && speed !== null && speed > 0;
   const validWindSpeed =
-    windSpeed !== undefined && windSpeed !== null && windSpeed > 0;
+    windSpeed !== undefined && windSpeed !== null && windSpeed >= 0;
   const validAirDensity =
     airDensity !== undefined && airDensity !== null && airDensity > 0;
 
