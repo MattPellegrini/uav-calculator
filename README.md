@@ -5,7 +5,21 @@ flight planning and risk assessment.
 
 ## Getting Started
 
-Run the local server:
+### Setup
+
+- Install [nodejs](https://nodejs.org/en) and npm
+- Download this source code.
+- Run `npm install` from a terminal / command line while in the uav-calculator directory / folder to install the required javascript dependencies.
+
+### Run the server
+
+- From a terminal / command line while in the uav-calculator directory / folder run:
+
+```bash
+npm run build
+```
+
+then
 
 ```bash
 npm run start
@@ -23,4 +37,6 @@ npm run dev
 
 Open [http://localhost:3456](http://localhost:3456) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Calculations
+
+The calculations used are separated into the file model.ts
